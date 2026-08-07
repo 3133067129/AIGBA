@@ -1,0 +1,9 @@
+{
+  "items": [],
+  "goals": {
+    "reached_town": true
+  },
+  "counters": {
+    "npc_talks": 4
+  }
+}

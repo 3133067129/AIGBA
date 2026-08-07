@@ -1,0 +1,5 @@
+# 游戏内固定规则（用户设定，AI 必须遵守）
+player:
+  gender: "女"      # 主角性别：女
+  name: "A"         # 主角名称：单字符 A
+  nickname_pokemon: false  # 所有宝可梦不命名（保持物种默认名）

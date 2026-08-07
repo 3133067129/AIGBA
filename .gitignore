@@ -1,0 +1,28 @@
+# ---------- 环境 ----------
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ---------- 第三方构建（README 说明构建方法）----------
+third_party/
+
+# ---------- 游戏 ROM / 存档 / 模拟器（版权 + 体积，不入库）----------
+GBA-lvbaoshi/
+mGBA.exe
+mGBA.lnk
+backups/
+*.gba
+*.sav
+*.state
+
+# ---------- 运行时数据（可再生成）----------
+data/checkpoints/
+data/demos/
+data/screenshots/
+data/tmp_dumps/
+data/fresh.sav
+data/fresh_intro.sav
+
+# ---------- 临时文件 ----------
+guide_tmp.html

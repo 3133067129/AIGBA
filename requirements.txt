@@ -1,0 +1,8 @@
+numpy>=1.26
+Pillow>=10
+requests>=2.31
+pygame>=2.5
+PyYAML>=6
+pytest>=8
+cmake>=3.28
+cffi>=1.6

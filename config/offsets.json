@@ -1,0 +1,61 @@
+{
+  "player_x": {
+    "addr": 33687120,
+    "type": "u16"
+  },
+  "player_y": {
+    "addr": 33687122,
+    "type": "u16"
+  },
+  "map_group": {
+    "addr": 33708556,
+    "type": "u8",
+    "comment": "0x02025A0C map bank；标定：家2F=0, 未白镇=8"
+  },
+  "map_num": {
+    "addr": 33708558,
+    "type": "u8",
+    "comment": "0x02025A0E map id；标定：家2F=0, 未白镇=14(0x0E)"
+  },
+  "party_count": {
+    "addr": 33703145,
+    "type": "u8"
+  },
+  "party_data": {
+    "addr": 33703148,
+    "type": "bytes",
+    "size": 600
+  },
+  "enemy_party_data": {
+    "addr": 33703748,
+    "type": "bytes",
+    "size": 600
+  },
+  "battle_type_flags": {
+    "addr": 33697772,
+    "type": "u16"
+  },
+  "battle_main_func": {
+    "addr": 50355460,
+    "type": "u32"
+  },
+  "battle_text_buf": {
+    "addr": 33697324,
+    "type": "bytes",
+    "size": 100
+  },
+  "money": {
+    "addr": 33708568,
+    "type": "u32"
+  },
+  "dex_seen_bitmap": {
+    "addr": 33734724,
+    "type": "bytes",
+    "size": 96
+  },
+  "dex_owned_bitmap": {
+    "addr": 33734672,
+    "type": "bytes",
+    "size": 96
+  }
+}
