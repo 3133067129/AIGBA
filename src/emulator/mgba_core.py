@@ -145,7 +145,8 @@ class Emulator:
     # ---------- 按键 ----------
 
     def _set(self, keys: tuple[Key, ...], method) -> None:
-        # 绑定要求 int 键常量（GBA.KEY_UP 等），字符串名字需转成整型
+        # binding 的 KEY_* 是枚举索引（KEY_A=0, KEY_B=1, ...），python 包装
+        # _keys_to_int 做 `keys |= 1 << key`——传索引即可（2026-08-08 核实源码）。
         values = [getattr(self.core, name) for name in to_mgba_keys(*keys)]
         getattr(self.core, method)(*values)
 

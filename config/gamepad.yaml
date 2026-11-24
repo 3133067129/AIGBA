@@ -1,0 +1,14 @@
+# 手柄录制配置。映射默认从 mGBA config.ini 自动解析（用户在 mGBA 里调好的绑定），
+# 这里只覆盖/补充原始标签。
+gamepad:
+  enabled: true
+
+  # 存档/读档按钮：--test 实测（2026-08-07）——本手柄 L2=左扳机(AX4+)、
+  # R2=右扳机(AX5+) 是 mGBA 默认的快速存档/快速读档。
+  # 若实际反了（按存档键却读到档），把两个值对调即可。
+  savestate_save_btn: "AX4+"   # 左扳机 = 快速存档
+  savestate_load_btn: "AX5+"   # 右扳机 = 快速读档
+
+  # 摇杆阈值（SDL 轴 -1..1）：死区 = 松开判定回退阈值；按下阈值
+  deadzone: 0.25
+  threshold: 0.5
